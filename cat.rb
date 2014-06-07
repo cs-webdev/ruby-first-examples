@@ -14,6 +14,12 @@ class Cat
       @kittens << Cat.new("Garfield no. #{num}")
     end
   end
+
+  def each_kitten
+    @kittens.each do |kitten|
+      yield kitten
+    end
+  end
 end
 
 garfield = Cat.new "Garfield"
