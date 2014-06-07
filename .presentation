@@ -1,0 +1,11 @@
+---
+slides:
+- slide:
+    commit: 6478644266fa7df3e8388696a2c3193aaf84ca5b
+    message: My first mixin
+- slide:
+    commit: 9733e2aefdc822f0a85a34d61ac666983c39c1aa
+    message: Adds kittens (each_kittens method missing)
+- slide:
+    commit: 436115d3aa5fc7db5dd6d61e9f2b5f3f35031a20
+    message: Adds each_kitten method
